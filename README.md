@@ -1,41 +1,40 @@
 # Simple Google VRP Auto Passive Scanner
 ---
 
-## 📌 Deskripsi
+## Deskripsi
 
-**Simple Google VRP Auto Passive Scanner** adalah tools berbasis Python yang digunakan untuk melakukan **analisis pasif** terhadap JavaScript publik pada domain Google dan resource terkait.
+**Simple Google VRP Auto Passive Scanner** Adalah Tools Berbasis Python Yang Digunakan Untuk Melakukan **Analisis Pasif** Terhadap JavaScript Publik Pada Domain Google Dan Resource Terkait
 
-Tool ini membantu security researcher dan bug hunter untuk menemukan:
-- Endpoint API tersembunyi
+Tool Ini Membantu Security Researcher Dan Bug Hunter Untuk Menemukan
+- Endpoint Api Tersembunyi
 - Referensi internal
-- Token / key / hash ber-entropy tinggi
-- Konfigurasi sensitif dari resource publik
+- Token/Key/Hash Ber-Entropy Tinggi
+- Konfigurasi Sensitif Dari Resource Publik Dan Privte
 
-⚠️ Tool ini **TIDAK melakukan eksploitasi aktif**.
-
----
-
-## 🎯 Tujuan
-
-- Passive reconnaissance untuk Google VRP
-- Membantu proses vulnerability discovery awal
-- Mendukung responsible disclosure
+Tool Ini **TIDAK Melakukan Eksploitasi Aktif**.
 
 ---
 
-## ✨ Fitur
+## Tujuan
 
-- 🔍 Passive JavaScript scanning (inline & external)
-- 🧠 Deteksi endpoint API & path sensitif
-- 📊 Perhitungan entropy string
-- 🎚️ Severity classification (INFO / LOW / MEDIUM)
-- 🧱 Google scope domain filtering
-- 🖥️ Terminal UI interaktif (Rich)
-- 📁 Output laporan otomatis (JSON)
+- Passive Reconnaissance Untuk Google VRP
+- Membantu Proses Vulnerability Discovery Awal
+- Mendukung Responsible Disclosure
 
 ---
 
-## 🧰 Teknologi
+## Fitur
+
+- Passive JavaScript Scanning (Inline & External)
+- Deteksi Endpoint Api & Path Sensitif
+- Perhitungan Entropy String
+- Severity Classification (INFO/LOW/MEDIUM)
+- Google Scope Domain Filtering
+- Output Laporan Otomatis (JSON)
+
+---
+
+## Teknologi
 
 - Python 3
 - requests
@@ -44,9 +43,30 @@ Tool ini membantu security researcher dan bug hunter untuk menemukan:
 
 ---
 
-## 📦 Instalasi
+## Instalasi
 
 ```bash
 git clone https://github.com/username/simple-google-vrp-passive-scanner.git
 cd simple-google-vrp-passive-scanner
 pip install requests beautifulsoup4 rich
+```
+## Cara Kerja 
+- Fetch HTML target
+- Extract semua JavaScript (inline & external)
+- Filter domain berdasarkan Google scope
+- Regex matching endpoint, token, config
+- Hitung entropy string
+- Tentukan severity
+- Simpan hasil ke JSON Untuk Report
+
+---
+
+## Severity Level
+- INFO Endpoint Umum/Risiko Rendah
+- LOW	Potensi Internal Reference
+- MEDIUM	Entropy Tinggi/Endpoint Sensitif
+
+---
+
+## Disclaimer
+FOR EDUCATIONAL & AUTHORIZED SECURITY RESEARCH ONLY, Gunakan Hanya Pada Domain Yang Diizinkan!
