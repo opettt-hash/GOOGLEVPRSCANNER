@@ -48,9 +48,10 @@ Tool Ini **TIDAK Melakukan Eksploitasi Aktif**.
 ## Instalasi
 
 ```bash
-git clone https://github.com/username/simple-google-vrp-passive-scanner.git
-cd simple-google-vrp-passive-scanner
+git clone https://github.com/opettt-hash/GOOGLEVPRSCANNER.git
+cd GOOGLEVPRSCANNER
 pip install requests beautifulsoup4 rich
+python GOOGLEVPRSCANNER.py
 ```
 ## Cara Kerja 
 - Fetch HTML target
