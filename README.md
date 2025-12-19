@@ -13,7 +13,7 @@ Tool Ini Membantu Security Researcher Dan Bug Hunter Untuk Menemukan
 - Token/Key/Hash Ber-Entropy Tinggi
 - Konfigurasi Sensitif Dari Resource Publik Dan Privte
 
-Tool Ini **TIDAK Melakukan Eksploitasi Aktif**.
+Tool Ini **TIDAK Melakukan Eksploitasi Aktif**!
 
 ---
 
