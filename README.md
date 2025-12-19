@@ -5,7 +5,7 @@
 
 ## Deskripsi
 
-**Simple Google VRP Auto Passive Scanner** Adalah Tools Berbasis Python Yang Digunakan Untuk Melakukan **Analisis Pasif** Terhadap JavaScript Publik Pada Domain Google Dan Resource Terkait
+**Simple Google VRP Auto Passive Scanner** Adalah Tools Berbasis Python Yang Digunakan Untuk Melakukan **Analisis Pasif** Terhadap JavaScript Publik Pada Domain Google Dan Resource Terkait Lainnya Untuk Kebutuhan Pentesting Legal
 
 Tool Ini Membantu Security Researcher Dan Bug Hunter Untuk Menemukan
 - Endpoint Api Tersembunyi
